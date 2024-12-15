@@ -4,17 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cafeteria CRCafe</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="/View/style.css">
+    <link rel="stylesheet" href="/View/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=ABeeZee&family=Cormorant+Garamond&family=Krub:wght@400;700&family=Lobster+Two&family=Open+Sans&family=PT+Sans:wght@400;700&family=Staatliches&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-        <!-- Preload , esta sirve para poder indicarle a la pagina la primera pagina la cargar-->
-        <link rel="Preload" href="normalize.css" as="style"
-        <link rel="stylesheet" href="normalize.css">
-        <!-- Prefetch , carga la siguiente pagina  que esperamos que el usuario visite-->
-        <link rel="Prefetch" href="nosotros.html" as="style"
+    <link rel="stylesheet" href="/View/Comprar.css">
+    <link rel="Preload" href="/View/entrada.html" as="style">
+    <link rel="stylesheet" href="/View/normalize.css">
+    <link rel="Prefetch" href="/View/nosotros.html" as="style">
 
 </head>
 <body>
@@ -26,10 +24,10 @@
             </a>
             
             <nav class="navegacion">
-                <a href="Comprar.html" class="navegacion__enlace">Compra de Productos</a>
-                <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
-                <a href="cursos.html" class="navegacion__enlace">Cursos</a>
-                <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                <a href="View/Comprar.html" class="navegacion__enlace">Compra de Productos</a>
+                <a href="View/nosotros.html" class="navegacion__enlace">Nosotros</a>
+                <a href="View/cursos.html" class="navegacion__enlace">Cursos</a>
+                <a href="View/contacto.html" class="navegacion__enlace">Contacto</a>
 
             </nav>
         </div> 
@@ -46,7 +44,7 @@
             <h3>Nuestro Blog</h3>
             <article class="entrada">
                 <div class="entreda__imagen">      
-                    <picture>     <!--Con picture hacemos que la imagen pese mucho menos con webp , si no carga jpg-->
+                    <picture>     
                         <source srcset=" img/blog1.webp" type="img/webp">
                         <img loading="lazy" src="img/blog1.jpg" alt="imagen blog">
                     </picture>
@@ -56,7 +54,7 @@
                 <h4 class="no-margin">Tipo de Granos de Cafe</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a ligula vitae ligula dapibus venenatis ut congue sem. Cras non lorem accumsan,
                 blandit diam quis, lacinia ligula. Morbi malesuada interdum ex a gravida. Nullam pretium neque in nisl pretium placerat. Sed eget turpis viverra ligula mollis facilisis. Cras eget ante vitae ex vulputate porttitor.</p>
-                <a href="entrada.html" class="boton boton--primario">Leer Entrada</a>
+                <a href="View/entrada.html" class="boton boton--primario">Leer Entrada</a>
                 </div>
             </article>
 
@@ -69,7 +67,7 @@
                 <h4 class="no-margin"> 3 Deliciosas Recetas de Cafe  </h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a ligula vitae ligula dapibus venenatis ut congue sem. Cras non lorem accumsan,
                 blandit diam quis, lacinia ligula. Morbi malesuada interdum ex a gravida. Nullam pretium neque in nisl pretium placerat. Sed eget turpis viverra ligula mollis facilisis. Cras eget ante vitae ex vulputate porttitor.</p>
-                <a href="entrada.html" class="boton boton--primario">Leer Entrada</a>
+                <a href="View/entrada.html" class="boton boton--primario">Leer Entrada</a>
                 </div>
             </article>
 
@@ -82,7 +80,7 @@
                 <h4 class="no-margin">Beneficios del Cafe</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a ligula vitae ligula dapibus venenatis ut congue sem. Cras non lorem accumsan,
                 blandit diam quis, lacinia ligula. Morbi malesuada interdum ex a gravida. Nullam pretium neque in nisl pretium placerat. Sed eget turpis viverra ligula mollis facilisis. Cras eget ante vitae ex vulputate porttitor.</p>
-                <a href="entrada.html" class="boton boton--primario">Leer Entrada</a>
+                <a href="View/entrada.html" class="boton boton--primario">Leer Entrada</a>
                 </div>
             </article>
         </main>
@@ -97,7 +95,7 @@
                 <p class="widget-curso__label">Cupo:
                     <span class="widget-curso__info">20</span>
                 </p>
-                <a href="entrada.html" class="boton boton--secundario">Mas Informacion</a>
+                <a href="View/entrada.html" class="boton boton--secundario">Mas Informacion</a>
                 </li>
                 <li class="widget-curso">
                     <h4 class="no-margin"> 4 Recetas de Cafe para principiantes </h4> 
@@ -107,7 +105,7 @@
                     <p class="widget-curso__label">Cupo:
                         <span class="widget-curso__info">20</span>
                     </p>
-                    <a href="entrada.html" class="boton boton--secundario">Mas Informacion</a>
+                    <a href="View/entrada.html" class="boton boton--secundario">Mas Informacion</a>
                     </li>
             </ul>
         </aside>
@@ -120,10 +118,10 @@
                 </a>
                 
                 <nav class="navegacion">
-                    <a href="Comprar.html" class="navegacion__enlace">Compra de Productos</a>
-                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
-                    <a href="cursos.html" class="navegacion__enlace">Cursos</a>
-                    <a href="contacto.html" class="navegacion__enlace">Contacto</a> 
+                    <a href="View/Comprar.html" class="navegacion__enlace">Compra de Productos</a>
+                    <a href="View/nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="View/cursos.html" class="navegacion__enlace">Cursos</a>
+                    <a href="View/contacto.html" class="navegacion__enlace">Contacto</a> 
                 </nav>
         </div>
     </footer>
