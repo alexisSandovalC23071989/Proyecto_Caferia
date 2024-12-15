@@ -1,0 +1,46 @@
+{
+	"folders": [
+		{
+			"path": "../../../PatronesRWD/01-2columnas_iguales_css_grid"
+		},
+		{
+			"path": "../../../PatronesRWD/02-2columnas_iguales_flexbox"
+		},
+		{
+			"path": "../../../PatronesRWD/03-3columnas_iguales_css_grid"
+		},
+		{
+			"path": "../../../PatronesRWD/04-3columnas_iguales_flexbox"
+		},
+		{
+			"path": "../../../PatronesRWD/05-3columnas_css_grid"
+		},
+		{
+			"path": "../../../PatronesRWD/06-3columnas_flexbox"
+		},
+		{
+			"path": "../../../PatronesRWD/07-column_drop_css_grid"
+		},
+		{
+			"path": "../../../PatronesRWD/08-column_drop_flexbox"
+		},
+		{
+			"path": "../../../PatronesRWD/09-con_sidebar_css_grid"
+		},
+		{
+			"path": "../../../PatronesRWD/10-con_sidebar_flexbox"
+		},
+		{
+			"path": "../../../PatronesRWD/11-layout_shifter_css_grid"
+		},
+		{
+			"path": "../../../PatronesRWD/12-layout_shifter_flexbox"
+		},
+		{
+			"path": "../../../PatronesRWD/13-mostly_fluid"
+		},
+		{
+			"path": "../../../PatronesRWD/14-tiny_tweaks"
+		}
+	]
+}
